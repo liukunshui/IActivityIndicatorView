@@ -28,8 +28,6 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "IActivityIndicator/**/*.{h,m}"
   s.exclude_files = "Classes/ios”
 
-  s.frameworks = "Foundation", "UIKit"
-
    s.requires_arc = true
 
 
