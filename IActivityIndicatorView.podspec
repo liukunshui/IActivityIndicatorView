@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/liukunshui/IActivityIndicatorView.git", :tag => "#{s.version}" }
 
-  s.source_files  = "Classes", "IActivityIndicator/**/*.{h,m}"
-  s.exclude_files = "Classes/ios”
+  s.source_files  = "Classes", "IActivityIndicator/*.{h,m}"
+
 
    s.requires_arc = true
 
