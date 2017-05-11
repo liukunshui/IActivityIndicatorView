@@ -16,6 +16,7 @@
 		39881B081EC3FF1D007633C9 /* IActivityIndicatorViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39881B071EC3FF1D007633C9 /* IActivityIndicatorViewTests.m */; };
 		39881B131EC3FF1D007633C9 /* IActivityIndicatorViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 39881B121EC3FF1D007633C9 /* IActivityIndicatorViewUITests.m */; };
 		39881B231EC3FF90007633C9 /* IActivityIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39881B221EC3FF90007633C9 /* IActivityIndicatorView.m */; };
+		39881B261EC43E88007633C9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39881B251EC43E88007633C9 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		39881B141EC3FF1D007633C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39881B211EC3FF90007633C9 /* IActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IActivityIndicatorView.h; sourceTree = "<group>"; };
 		39881B221EC3FF90007633C9 /* IActivityIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IActivityIndicatorView.m; sourceTree = "<group>"; };
+		39881B251EC43E88007633C9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39881B261EC43E88007633C9 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +92,7 @@
 				39881B061EC3FF1D007633C9 /* IActivityIndicatorViewTests */,
 				39881B111EC3FF1D007633C9 /* IActivityIndicatorViewUITests */,
 				39881AEB1EC3FF1C007633C9 /* Products */,
+				39881B241EC43E88007633C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -151,6 +155,14 @@
 				39881B221EC3FF90007633C9 /* IActivityIndicatorView.m */,
 			);
 			path = IActivityIndicator;
+			sourceTree = "<group>";
+		};
+		39881B241EC43E88007633C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39881B251EC43E88007633C9 /* UIKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
