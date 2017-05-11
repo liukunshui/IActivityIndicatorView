@@ -443,11 +443,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T36KLHNDC3;
 				INFOPLIST_FILE = IActivityIndicatorView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ks.IActivityIndicatorView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -455,11 +457,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = T36KLHNDC3;
 				INFOPLIST_FILE = IActivityIndicatorView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ks.IActivityIndicatorView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -532,6 +536,7 @@
 				39881B191EC3FF1D007633C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39881B1A1EC3FF1D007633C9 /* Build configuration list for PBXNativeTarget "IActivityIndicatorViewTests" */ = {
 			isa = XCConfigurationList;
@@ -540,6 +545,7 @@
 				39881B1C1EC3FF1D007633C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		39881B1D1EC3FF1D007633C9 /* Build configuration list for PBXNativeTarget "IActivityIndicatorViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -548,6 +554,7 @@
 				39881B1F1EC3FF1D007633C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

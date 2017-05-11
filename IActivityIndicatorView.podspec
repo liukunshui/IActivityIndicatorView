@@ -91,10 +91,10 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Classes", “IActivityIndicatorView/**/*.{h,m}"
-  s.exclude_files = "IActivityIndicatorView/IActivityIndicatorView"
+  s.source_files  = "Classes", "IActivityIndicator/**/*.{h,m}"
+  s.exclude_files = "Classes/ios”
 
-  # s.public_header_files = "IActivityIndicatorView/**/*.h"
+  # s.public_header_files = “IActivityIndicator/IActivityIndicatorView.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
