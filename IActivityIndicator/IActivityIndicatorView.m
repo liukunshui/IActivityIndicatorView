@@ -6,8 +6,21 @@
 //
 //
 #import <UIKit/UIKit.h>
-#import "Singleton.h"
+
 #import "IActivityIndicatorView.h"
+#undef	SINGLETON_DECLAR
+#define SINGLETON_DECLAR( __class ) \
++ (__class *)shareInstance;
+
+#undef	SINGLETON_DEFINE
+#define SINGLETON_DEFINE( __class ) \
++ (__class *)shareInstance \
+{ \
+static dispatch_once_t once; \
+static __class * __singleton__; \
+dispatch_once( &once, ^{ __singleton__ = [[__class alloc] init]; } ); \
+return __singleton__; \
+}
 
 #define AINDICTORVIEW_HEIGHT 70 //加载背景框长宽
 #define ACVBG_COLOR [UIColor blackColor]
@@ -78,8 +91,7 @@ SINGLETON_DEFINE(IActivityIndicatorViewEx);
 
 - (void) dealloc
 {
-    [super dealloc];
-    releaseif(m_indicatorView);
+    
 }
 @end
 
